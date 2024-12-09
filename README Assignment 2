@@ -1,0 +1,32 @@
+#Assignment 2
+# Zipping a Folder with Optional Password Protection
+
+## Description
+This program zips a specified folder and its contents into a `.zip` file. It allows for optional password protection using AES encryption. If no password is provided, a standard zip file is created. The user can also specify a custom name for the zip file.
+
+
+## How to Run
+1. Ensure you have Python 3.x installed on your machine.
+2. Install the required `pyzipper` module for password protection (if needed) using the command: 
+- pip install pyzipper
+3.Save the script as assignment2_zip_folder.py.
+4.Run the script using the command:
+- python assignment2_zip_folder.py
+5.Follow the prompts to enter:
+- The path to the folder you want to zip.
+- A custom name for the zip file (optional).
+- A password for the zip file (optional).
+
+## Expected Input/Output
+- **Input**: 
+1.Path to the folder you want to zip.
+2.Custom name for the zip file (leave empty for default).
+3.Password for the zip file (leave empty for no password).
+
+- **Output**: 
+1.A zip file created in the same directory as the specified folder, named according to the provided custom name or the folder's name.
+
+## Error Handling
+- The program checks if the provided folder path exists and is a directory.
+- It handles cases where the pyzipper module is not installed when a password is requested.
+- It raises errors for invalid inputs, such as empty passwords when password protection is requested.

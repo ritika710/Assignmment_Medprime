@@ -1,0 +1,19 @@
+# Assignment 3
+# Creating a Collage from 4 Images
+
+## Description
+This program takes four images as input and arranges them into a 2x2 collage, saving the result as a new image file.
+
+## How to Run
+1. Ensure you have Python and the Pillow library installed on your machine.
+2. Save the script as `assignment3_create_collage.py`.
+3. Run the script using the command: `python assignment3_create_collage.py`.
+4. Enter the paths to the four images and specify the desired output format.
+
+## Expected Input/Output
+- Input: Paths to four images and the desired output format.
+- Output: A file named `collage.jpg` or `collage.png` containing the 2x2 grid of images.
+
+## Error Handling
+- The program checks if the provided files are valid images and handles loading errors.
+- It ensures that all images are resized to the same dimensions before creating the collage.

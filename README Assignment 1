@@ -1,0 +1,24 @@
+# Assignment 1
+# Renaming All Files in a Folder Sequentially
+
+## Description
+This program renames all files in a specified folder sequentially, starting from 1, while preserving their original file extensions.
+
+## How to Run
+1. Ensure you have Python installed on your machine.
+2. Save the script as `assignment1_rename_files.py`.
+3. Run the script using the command: `python assignment1_rename_files.py`.
+4. Enter the path to the folder when prompted.
+
+## Expected Input/Output
+- Input: Path to the folder containing files to rename.
+- Output: Renamed files in the format 1.ext, 2.ext, etc.
+
+## Notes
+- Empty Folder: If the folder is empty, the program will notify you and exit.
+- Subdirectories: Files in subdirectories are skipped unless recursive renaming is enabled.
+- Preview Mode: Allows you to review the renaming plan before applying changes.
+
+## Error Handling
+- The program checks if the folder exists and is a directory.
+- It handles permission issues and reports errors during renaming.
